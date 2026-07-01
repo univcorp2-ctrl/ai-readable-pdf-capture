@@ -1,0 +1,61 @@
+<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Kindle capture workflow</title>
+  <desc id="desc">A left-to-right workflow showing permitted Kindle content opened on a PC, captured as images, converted to an OCR searchable PDF, and uploaded by the user to an AI service.</desc>
+  <rect width="1280" height="520" fill="#F8FAFC"/>
+  <text x="48" y="56" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#0F172A">Kindleで使う全体の流れ</text>
+  <text x="48" y="90" font-family="Arial, sans-serif" font-size="16" fill="#475569">許可された資料だけを対象に、画面キャプチャ → PDF化 → AIへアップロードします</text>
+
+  <g transform="translate(60 145)">
+    <rect x="0" y="0" width="220" height="250" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3"/>
+    <rect x="24" y="32" width="172" height="128" rx="8" fill="#E0F2FE" stroke="#0284C7" stroke-width="2"/>
+    <rect x="52" y="54" width="116" height="84" rx="3" fill="#FFFFFF"/>
+    <line x1="68" y1="74" x2="152" y2="74" stroke="#334155" stroke-width="4"/>
+    <line x1="68" y1="94" x2="152" y2="94" stroke="#334155" stroke-width="4"/>
+    <line x1="68" y1="114" x2="136" y2="114" stroke="#334155" stroke-width="4"/>
+    <text x="20" y="205" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0F172A">1. Kindleを開く</text>
+    <text x="20" y="232" font-family="Arial, sans-serif" font-size="14" fill="#475569">自作・許可済み資料を表示</text>
+  </g>
+
+  <path d="M305 270H380" stroke="#2563EB" stroke-width="6" stroke-linecap="round"/>
+  <path d="M362 250L384 270L362 290" stroke="#2563EB" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(410 145)">
+    <rect x="0" y="0" width="220" height="250" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3"/>
+    <rect x="30" y="30" width="160" height="150" rx="8" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+    <rect x="48" y="48" width="124" height="114" rx="4" fill="#FFFFFF" stroke="#22C55E" stroke-width="3" stroke-dasharray="8 6"/>
+    <circle cx="176" cy="104" r="16" fill="#2563EB"/>
+    <path d="M172 96L181 104L172 112" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="20" y="205" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0F172A">2. 範囲と送り方</text>
+    <text x="20" y="232" font-family="Arial, sans-serif" font-size="14" fill="#475569">region / key / click を指定</text>
+  </g>
+
+  <path d="M655 270H730" stroke="#2563EB" stroke-width="6" stroke-linecap="round"/>
+  <path d="M712 250L734 270L712 290" stroke="#2563EB" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(760 145)">
+    <rect x="0" y="0" width="220" height="250" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3"/>
+    <rect x="34" y="28" width="152" height="178" rx="10" fill="#FEF3C7" stroke="#D97706" stroke-width="2"/>
+    <text x="62" y="78" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#92400E">PNG pages</text>
+    <rect x="58" y="96" width="104" height="20" rx="4" fill="#FFFFFF"/>
+    <rect x="58" y="128" width="104" height="20" rx="4" fill="#FFFFFF"/>
+    <rect x="58" y="160" width="104" height="20" rx="4" fill="#FFFFFF"/>
+    <text x="20" y="225" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0F172A">3. PDF化/OCR</text>
+    <text x="20" y="244" font-family="Arial, sans-serif" font-size="14" fill="#475569">透明テキスト付きPDFへ</text>
+  </g>
+
+  <path d="M1005 270H1080" stroke="#2563EB" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1062 250L1084 270L1062 290" stroke="#2563EB" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(1110 145)">
+    <rect x="0" y="0" width="130" height="250" rx="18" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="3"/>
+    <circle cx="65" cy="78" r="34" fill="#DBEAFE" stroke="#2563EB" stroke-width="3"/>
+    <text x="42" y="87" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#1D4ED8">AI</text>
+    <rect x="28" y="138" width="74" height="54" rx="6" fill="#F1F5F9" stroke="#64748B"/>
+    <text x="24" y="225" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#0F172A">4. 読ませる</text>
+    <text x="22" y="244" font-family="Arial, sans-serif" font-size="13" fill="#475569">自分でアップロード</text>
+  </g>
+
+  <rect x="48" y="438" width="1184" height="46" rx="12" fill="#FFF7ED" stroke="#FDBA74"/>
+  <text x="72" y="467" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#9A3412">注意:</text>
+  <text x="124" y="467" font-family="Arial, sans-serif" font-size="16" fill="#9A3412">DRM回避・コピー制限回避・購入済み本の無断PDF化・第三者配布には使わないでください。</text>
+</svg>
