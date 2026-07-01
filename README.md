@@ -81,6 +81,34 @@ ai-pdf-capture run --pages 5 --advance key:pagedown --output outputs/capture.pdf
 ai-pdf-capture run --pages 10 --advance click:1800,980 --delay 0.5 --output outputs/click.pdf --acknowledge-compliance
 ```
 
+## Kindleで使う
+
+Kindleアプリで使う場合は、まず [docs/kindle.md](docs/kindle.md) を確認してください。通常の購入済みKindle本を丸ごとPDF化する用途ではなく、自作原稿、許可済み資料、Public Domain、社内利用許可済みドキュメントなどに限定してください。
+
+最小テスト:
+
+```bash
+ai-pdf-capture run \
+  --pages 2 \
+  --advance key:right \
+  --delay 0.8 \
+  --output outputs/kindle-test.pdf \
+  --owner-label "private-use-only" \
+  --acknowledge-compliance
+```
+
+キーで進まない場合は、Kindle画面右側のページ送り矢印をクリック座標で指定します。
+
+```bash
+ai-pdf-capture run \
+  --pages 2 \
+  --advance click:1800,980 \
+  --delay 0.8 \
+  --output outputs/kindle-test.pdf \
+  --owner-label "private-use-only" \
+  --acknowledge-compliance
+```
+
 ## OCR付きPDFを作る
 
 Tesseractをインストール済みなら、`--ocr` を付けます。
@@ -175,6 +203,7 @@ ruff check .
 
 - [docs/architecture.md](docs/architecture.md) — 詳細アーキテクチャ
 - [docs/setup.md](docs/setup.md) — Windows/macOS/Linux初期設定
+- [docs/kindle.md](docs/kindle.md) — Kindleアプリでの使い方
 - [docs/oss-research.md](docs/oss-research.md) — OSS調査メモ
 - [CODEX.md](CODEX.md) — AI開発エージェント向けの実装ルール
 
