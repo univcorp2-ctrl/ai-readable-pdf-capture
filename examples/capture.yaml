@@ -1,0 +1,9 @@
+pages: 5
+output_dir: outputs/pages
+advance: key:right
+delay: 0.6
+start_delay: 3.0
+region: null
+prefix: page
+acknowledge_compliance: true
+dry_run: false
