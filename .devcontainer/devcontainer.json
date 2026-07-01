@@ -1,0 +1,14 @@
+{
+  "name": "AI Readable PDF Capture",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "features": {},
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y tesseract-ocr tesseract-ocr-jpn && python -m pip install --upgrade pip && python -m pip install -e .[dev]",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "charliermarsh.ruff"
+      ]
+    }
+  }
+}
