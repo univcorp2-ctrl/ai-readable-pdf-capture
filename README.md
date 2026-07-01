@@ -83,7 +83,11 @@ ai-pdf-capture run --pages 10 --advance click:1800,980 --delay 0.5 --output outp
 
 ## Kindleで使う
 
-Kindleアプリで使う場合は、まず [docs/kindle.md](docs/kindle.md) を確認してください。通常の購入済みKindle本を丸ごとPDF化する用途ではなく、自作原稿、許可済み資料、Public Domain、社内利用許可済みドキュメントなどに限定してください。
+Kindleアプリで使う場合は、図解付きの [docs/kindle.md](docs/kindle.md) を確認してください。通常の購入済みKindle本を丸ごとPDF化する用途ではなく、自作原稿、許可済み資料、Public Domain、社内利用許可済みドキュメントなどに限定してください。
+
+![Kindleで使う全体の流れ](docs/assets/kindle-workflow.svg)
+
+**画像の説明:** Kindleアプリで許可済み資料を開き、キャプチャ範囲とページ送り方法を指定し、PDF化/OCR化して、最後にユーザー自身がAIサービスへアップロードする流れです。
 
 最小テスト:
 
@@ -203,7 +207,7 @@ ruff check .
 
 - [docs/architecture.md](docs/architecture.md) — 詳細アーキテクチャ
 - [docs/setup.md](docs/setup.md) — Windows/macOS/Linux初期設定
-- [docs/kindle.md](docs/kindle.md) — Kindleアプリでの使い方
+- [docs/kindle.md](docs/kindle.md) — Kindleアプリでの図解付き使い方
 - [docs/oss-research.md](docs/oss-research.md) — OSS調査メモ
 - [CODEX.md](CODEX.md) — AI開発エージェント向けの実装ルール
 
